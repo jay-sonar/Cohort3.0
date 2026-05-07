@@ -1,0 +1,122 @@
+@font-face {
+    font-family: bold;
+    src: url(GucciSansPro-Bold.woff2);
+}
+@font-face {
+    font-family: light;
+    src: url(GucciSansPro-Light.woff2);
+}
+@font-face {
+    font-family: medium;
+    src: url(GucciSansPro-Medium.woff2);
+}
+@font-face {
+    font-family: book;
+    src: url(GucciSansPro-Book.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 110px;
+    font-family: bold;
+    position: sticky;
+    top: 0;
+}
+main nav #navstart{
+    width: 18%;
+    font-size: 18px;
+
+}
+main nav #navstart h6 span{
+    margin-right: 10px;
+}
+main nav #navlogo img{
+    height: 30px;
+
+}
+main nav #navend{
+    text-transform: uppercase;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+main nav #navend i{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+main #index{
+    height: 1000px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    font-family: light;
+    color: white;
+
+}
+main #index #index1{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://media.gucci.com/cms/spctf1/5LfUlh2T9e1BQIWyFLplbS/5efb2b0296e49a76361c70b52eab4872/HP_Portrait_3x4_Gucci-MDAY-APRIL26-IMG-3111_001_Default.png?w=2000);
+    background-size: cover;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    line-height: 60px;
+    padding: 35px;
+}
+main #index #index1 button{
+    font-family: bold;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    padding: 17px 25px;
+    border-radius: 2px;
+}
+main #index #index2{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://media.gucci.com/cms/spctf1/3UrujynEIETjuRFfO06gr4/eb17db9b1e667f61520bb5fafaa01a2f/Portrait_3x4_Gucci-ARYNA-002.png?w=2000);
+    background-size: cover;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    line-height: 60px;
+    padding: 35px;
+
+}
+main #index #index2 button{
+    font-family: bold;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    padding: 17px 25px;
+    border-radius: 2px;
+    position: static;
+    bottom: 20%;
+
+}
+
