@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6eff9;
+}
+
+main nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+main nav i{
+    font-size: 20px;
+    color: #2b72b9;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.325);
+    background-color: white;
+}
+main nav i:nth-last-child(1){
+    color: black;
+}
+
+main #search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    width: 100%;
+    height: 80px;
+}
+main #search #input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: white;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.325);
+}
+main #search #input input{
+    height: 100%;
+    width: 300px;
+    padding: 13px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+main #search #input i{
+    font-size: 20px;
+
+    
+}
+
+main #search #filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+main #search #filter h6{
+    font-size: 15px;
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.325);
+    cursor: pointer;
+    font-weight: 500;
+}
+main #search #filter h6 i{
+    margin-left: 30px;
+}
+
+main #search #filter #i{
+    font-size: 15px;
+    background-color: white;
+    padding: 13px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.325);
+    cursor: pointer;
+
+}
+
+main #pcard{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 70px;
+}
+main #pcard .card{
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: white;
+}
+main #pcard .card h4{
+    font-size: 23px;
+    color: #0b3763;
+    font-weight: 700;
+
+}
+main #pcard .card #top h6{
+    font-weight: 600;
+    color: rgb(175, 174, 174);
+
+}
+main #pcard .card:nth-child(1){
+    box-shadow: 0 5px 1px green;
+    
+
+}
+main #pcard .card:nth-child(2){
+    box-shadow: 0 5px 1px #6a6a6a;
+}
+main #pcard .card:nth-child(3){
+    box-shadow: 0 5px 1px #e18758;
+
+}
+main #pcard .card:nth-child(4){
+    box-shadow: 0 5px 1px #7aa3cf;
+}
+
+main #pcard .card #top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+main #pcard .card #top i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.325);
+}
+main #pcard .card img{
+    height: 60%;
+}
+main #pcard .card h4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+main #pcard .card #last{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main #pcard .card #last h6{
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+main #pcard .card #last h6 img{
+    height: 15px;
+}
+main #pcard .card #last h6{
+    color: green;
+    background-color: #00800033;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+main #pcard .card:nth-child(2) #last h6{
+    color: #6a6a6a;
+    background-color: #6b6b6b33;
+}
+main #pcard .card:nth-child(3) #last h6{
+    color: #e18758;
+    background-color: #e1875833;
+}
+main #pcard .card:nth-child(4) #last h6{
+    color: #7aa3cf;
+    background-color:#7aa3cf33;
+}
+main #pcard .card #last i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.325);
+}
+
+
+main #container{
+    height: 150px;
+    width: 100%;
+    padding: 0 100px;
+    margin-top: 100px;
+}
+main #container #box{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.325);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+main #container #box .box{
+    height: 100%;
+    width: 20%;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.322);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0b3763;
+}
+main #container #box .box p{
+    font-size: 12px;
+    font-weight: 500;
+}
+main #container #box .box:nth-last-child(1){
+    border: none;
+}
+
+main #container #box .box img{
+    height: 45px;
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+    padding: 30px;
+}
+main footer img{
+    height: 30px;
+}
+main footer h6{
+    color: #7c7c7c;
+}
