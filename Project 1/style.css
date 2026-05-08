@@ -22,6 +22,7 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-color: black;
 }
 main nav{
     height: 70px;
@@ -33,8 +34,9 @@ main nav{
     justify-content: space-between;
     padding: 30px 110px;
     font-family: bold;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 1000;
 }
 main nav #navstart{
     width: 18%;
@@ -67,7 +69,6 @@ main nav #navend i{
 main #index{
     height: 1000px;
     width: 100%;
-    background-color: aqua;
     display: flex;
     font-family: light;
     color: white;
@@ -85,6 +86,11 @@ main #index #index1{
     justify-content: end;
     line-height: 60px;
     padding: 35px;
+    
+}
+main #index #index1 h6{
+    position: sticky;
+    bottom: calc(10% + 50px);
 }
 main #index #index1 button{
     font-family: bold;
@@ -93,6 +99,8 @@ main #index #index1 button{
     font-size: 12px;
     padding: 17px 25px;
     border-radius: 2px;
+    position: sticky;
+    bottom: 10%;
 }
 main #index #index2{
     height: 100%;
@@ -106,7 +114,12 @@ main #index #index2{
     justify-content: end;
     line-height: 60px;
     padding: 35px;
+    
 
+}
+main #index #index2 h6{
+    position: sticky;
+    bottom: calc(10% + 50px);
 }
 main #index #index2 button{
     font-family: bold;
@@ -115,8 +128,193 @@ main #index #index2 button{
     font-size: 12px;
     padding: 17px 25px;
     border-radius: 2px;
-    position: static;
-    bottom: 20%;
+    position: sticky;
+    bottom: 10%;
 
 }
 
+
+
+main #container{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-family: bold;
+    font-size: 23px;
+    text-align: center;
+}
+
+#container #c1 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#container #c2 img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+#container #c3 img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+#container #c4 img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+main #container2{
+    width: 100%;
+    color: white;
+    font-family: bold;
+    font-size: 23px;
+    text-align: center;
+}
+main #container2 #video a{
+    width: 100%;
+    color: white;
+    font-family: medium;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 0.5px solid white;
+    font-weight: 100;
+}
+main #container2 #video h6{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: light;
+    margin-bottom: 40px;
+}
+main #container2 #video{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+main #container2 #video video{
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+
+
+main #container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+    color: white;
+}
+main #container3 h6:nth-child(1){
+    font-size: 15px;
+    font-family: bold;
+    text-transform: uppercase;
+}
+main #container3 p{
+    font-family: light;
+    width: 56%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+main #container3 h6:nth-last-child(1){
+    font-size: 12px;
+    font-family: light;
+    font-weight: 100;
+}
+main #container3 span{
+    margin-right: 5px;
+
+}
+
+
+#container4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 50px;
+    color: white;
+    font-family: light;
+    margin-top: 100px;
+    padding: 0 100px;
+    font-size: 18px;
+    font-weight: 100;
+    
+}
+
+#help h6,
+#company h6,
+#loc h6,
+#services h6{
+    margin-bottom: 28px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+#help h6:first-child,
+#company h6:first-child,
+#loc h6:first-child,
+#services h6:first-child{
+    color: #8a8a8a;
+    font-weight: 600;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+#help h6:not(:first-child),
+#company h6:not(:first-child),
+#services h6:not(:first-child){
+    text-decoration: underline;
+    width: fit-content;
+}
+
+#loc h6:not(:last-child){
+    color: #8a8a8a;
+    font-weight: 600;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+
+}
+#loc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+#loc p{
+    font-size: 11px;
+}
+#loc input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding-bottom: 15px;
+    color: white;
+    outline: none;
+    font-family: light;
+    
+}
+
+
+
+
+#loc h6:last-child{
+    text-decoration: underline;
+    width: fit-content;
+    color: white;
+}
+
+main #img{
+
+    width: 100%;
+    padding: 50px;    
+}
