@@ -210,3 +210,80 @@ console.log(fruit.charAt(0));
 var name = "Aman";
 var age = 20;
 console.log(`My name is ${name} and I am ${age} years old`);
+
+
+// ## Numbers & Math
+
+
+// 1. Round `4.7` using `Math.round()`.
+console.log(Math.round(4.7));
+
+
+// 2. Find the square root of 81.
+console.log(Math.sqrt(81));
+
+// 3. Find the maximum number from `10, 20, 5, 99`.
+console.log(Math.max(10,20,5,99));
+
+// 4. Generate a random number between 1 and 10.
+console.log(Math.random() * 10) + 1;
+
+// 5. Convert `"99.99"` into an integer.
+
+
+// 6. Check whether `25` is an integer or not.
+console.log(Number.isInteger(25));
+
+
+// 7. Use `toFixed(2)` on `3.141592`.
+console.log(3.141592.toFixed(2));
+
+
+
+// ## Conditionals
+
+// 1. Check whether a number is positive or negative.
+var num3 = -2;
+if(num3 > 0){
+    console.log(`${num3} is positive`);
+}else if(num3 === 0){
+    console.log(`${num3} is zero`);
+}else{
+    console.log(`${num3} is negative`);
+}
+
+// 2. Check whether a number is even or odd.
+var num3 = 7;  
+if ( num3 % 2 === 0 ){
+    console.log("even") 
+}else{
+    console.log("odd")
+} 
+
+// 3. Check whether a person is eligible to vote.
+{let age = 9;
+if (age >= 18){
+    console.log("Person can vote.")
+}else{
+    console.log("Person can not Vote.")
+}
+}
+
+// 4. Find the largest among two numbers.
+{let x = 99;
+let y = 9;
+let largest = y < x ? x : x > y ? x : 
+console.log( `Largest number is ${largest}` )}
+
+// 5. Find the largest among three numbers.
+// 6. Check whether a year is a leap year.
+// 7. Check whether a number is divisible by both 3 and 5.
+// 8. Create a simple grading system:
+// - 90+ → A
+// - 75+ → B
+// - 50+ → C
+// - below 50 → Fail
+// 1. Check whether a character is a vowel or consonant.
+// 2. Create a calculator using `switch` statement.
+// 3. Print the day name based on a number (1–7).
+// 4. Check whether a username is `"admin"` and password is `"1234"`.
